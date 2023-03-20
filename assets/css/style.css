@@ -454,7 +454,7 @@ button {
     justify-content: center;
     gap: var(--sp-0-5);
     font-size: var(--small-font);
-    padding-top: 14px;
+    padding-top: 10px;
 }
 
 .article{
