@@ -517,7 +517,7 @@ button {
     font-size: 15px;
 }
 
-remove-from-cart.{
+.remove-from-cart{
     font-size: 1.25rem;
     display: flex;
     align-items: center;
@@ -574,17 +574,13 @@ span.cart__count--text2{
         align-items: center;
     }
 
-    .nav__link{
-        font-size: 1rem;
-    }
-
     .nav__menu .btn--close,
     .btn--menu{
         display: none;
     }
 
     .nav__link{
-        font-size: var(--small-font);
+        font-size: 1rem;
     }
 
     .btn--cart{
@@ -636,8 +632,8 @@ span.cart__count--text2{
         font-size: var(--small-font);
     }
 
-    .remove-from-cart{
-        font-size: var(--small-font);
+    .remove-from-cart i{
+        font-size: var(--normal-font);
     }
 
     .cart__empty i,p{
