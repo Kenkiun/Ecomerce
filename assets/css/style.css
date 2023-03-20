@@ -560,6 +560,15 @@ button {
         font-size: var(--small-font);
     }
 
+    .product__stock{
+        font-size: .9rem;
+    }
+
+    .product__price{
+        grid-column: span 1;
+        font-size:  var(--small-font);
+    }
+    
     .cart{
         top: var(--header-height);
     }
