@@ -373,7 +373,7 @@ button {
     display: flex;
     align-items: center;
     gap: var(--sp-1-5);
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 
 .footer__link{
@@ -574,7 +574,7 @@ span.cart__count--text2{
         align-items: center;
     }
 
-    nav__link{
+    .nav__link{
         font-size: 1rem;
     }
 
@@ -595,6 +595,10 @@ span.cart__count--text2{
         padding-top: var(--header-height);
     }
 
+    .products__title{
+        font-size: 1.5rem;
+    }
+
     .product__title{
         font-size: var(--small-font);
     }
@@ -608,7 +612,7 @@ span.cart__count--text2{
     }
 
     .product__stock{
-        font-size: .9rem;
+        font-size: .8rem;
     }
 
     .product__price{
@@ -655,10 +659,9 @@ span.cart__count--text2{
         font-size: .7rem;
     }
 
-    .footer__social{
-        margin-bottom: -40px;
+    .footer__container.container{
+        gap: 0px
     }
-
 }
 
 @media (min-width: 1024px){
