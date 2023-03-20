@@ -38,7 +38,7 @@ function cart (db, printProducts) {
 
                         <h3 class="article__title">${product.name}</h3>
 
-                        <span class="article__price">${product.price}</span>
+                        <span class="article__price">$${product.price}</span>
 
                         <div class="article__quantity">
 
